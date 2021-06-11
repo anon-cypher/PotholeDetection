@@ -35,7 +35,7 @@ conda create -n <Environment Name> python=3.7
 conda activate <Environment Name>
 ```
 
-Now install are the required libraries using the command:
+Now install all the required libraries using the command:
 
 ```
 pip install -r requirements.txt
