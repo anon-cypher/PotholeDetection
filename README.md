@@ -41,7 +41,7 @@ Now install all the required libraries using the command:
 pip install -r requirements.txt
 ```
 
-After successfully installing libraries, execute the following code to detect 'clip.mp4' which is our test data:
+After successfully installing libraries, execute the following code to detect `clip.mp4` which is our test data:
 
 ```
 python detect.py --weights runs/train/yolov5s_results/weights/last.pt --img 416 --conf 0.5 --source clip.mp4
